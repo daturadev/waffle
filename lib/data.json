@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "spoof_headers": {
+      "X - Originating - IP": "127.0.0.1",
+      "X - Forwarded - For": "127.0.0.1",
+      "X - Remote - IP": "127.0.0.1",
+      "X - Remote - Addr": "127.0.0.1",
+      "X - Client - IP": "127.0.0.1"
+    },
+    "tete_variation": {
+      "transfer-Encoding": "chunked",
+      "Transfer -Encoding": "chunked",
+      " Transfer-Encoding": "chunked",
+      "Transfer-Encoding ": "chunked",
+      "transfer-encoding": "chunked",
+      " transfer-encoding": "chunked",
+      "transfer-encoding ": "chunked",
+      "Transfer - Encoding": "chunked",
+      "Transfer-Encoding\n": "chunked",
+      "X: X\nTransfer-Encoding": "chunked",
+      "transfer-Encoding": "x",
+      "Transfer -Encoding": "x",
+      " Transfer-Encoding": "x",
+      "Transfer-Encoding ": "x",
+      "transfer-encoding": "x",
+      " transfer-encoding": "x",
+      "transfer-encoding ": "x",
+      "Transfer - Encoding": "x",
+      "Transfer-Encoding\n": "x",
+      "X: X\nTransfer-Encoding": "x",
+      "Transfer-Encoding": "chunkedx",
+      "Transfer-Encoding": "xchunked",
+      "Transfer-Encoding": "CHUNKED",
+      "TransferEncoding": "chunked",
+      "transfer-encoding": "chunked",
+      "\rTransfer-Encoding": "chunked",
+      "Transfer-Encoding\r": "chunked",
+      "Transfer-\rEncoding": "chunked",
+      "\rTransfer-Encoding": "x"
+    },
+    "tete_headers": {
+      "Host": "url",
+      "Connection": "Keep-ALive",
+      "Keep-Alive": "timeout=12, max=15"
+    },
+    "tecl_headers": {
+      "Host": "url",
+      "Content-Length": "3",
+      "Transfer-Encoding": "chunked"
+    },
+    "clte_headers": {
+      "Host": "url",
+      "Content-Length": "payloadBytesAdapted",
+      "Transfer-Encoding": "chunked"
+    }
+  },
+  "store": {
+    "valid": {
+      "[ ✓ || VALID | HEADERS ] CL.TE": "",
+      "[ ✓ || VALID | HEADERS ] TE.CL": "",
+      "[ ✓ || VALID | HEADERS ] TE.TE": "",
+      "[ ✓ || VALID | HEADERS ] CL.TE & Spoofing": "",
+      "[ ✓ || VALID | HEADERS ] TE.CL & Spoofing": "",
+      "[ ✓ || VALID | HEADERS ] TE.TE & Spoofing": ""
+    },
+    "invalid": {
+      "[ ✕ || INVALID | HEADERS ] CL.TE": "",
+      "[ ✕ || INVALID | HEADERS ] TE.CL": "",
+      "[ ✕ || INVALID | HEADERS ] TE.TE": "",
+      "[ ✕ || INVALID | HEADERS ] CL.TE & Spoofing": "",
+      "[ ✕ || INVALID | HEADERS ] TE.CL & Spoofing": "",
+      "[ ✕ || INVALID | HEADERS ] TE.TE & Spoofing": ""
+    }
+  }
+}
