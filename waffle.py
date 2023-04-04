@@ -9,7 +9,7 @@
 import argparse
 from os import system, name
 import requests
-import lib.parser
+from lib import parser
 import time
 
 
@@ -88,7 +88,7 @@ if url is None or payload is None:
 
 if requests.get(url).status_code != 200:
     clear()
-    print(" [ WAFFLE | Python-scripted WAF-Bypass | anxiety#1101 ♥ @ Datura Data ♥ ] \n\n\n")
+    print(" [ WAFFLE | Python-scripted WAF-Bypass | vipa@DaturaData ♥ ] \n\n\n")
     print("[ !! | Invalid URL ] Status code: {0}".format(str(requests.get(url).status_code)))
     time.sleep(1)
     print("\n\n Please enter a valid URL.\nExiting...")
@@ -123,8 +123,10 @@ if requests.get(url).status_code != 200:
 
 # Function | Main
 class run:
-    def main(self):
+    def sql_fuzz(self, parser):
+        for METHOD_SQL in parser:
 
+    def main(self):
         print(banner)
         print("\n [ WAFFLE | Python-scripted WAF-Bypass | anxiety#1101 ♥ | Datura Data ♥ ] \n\n\n")
         time.sleep(2)
@@ -207,14 +209,12 @@ class run:
 
         # If | Invalid | All Header Manipulation Tactics
         if clte_status != 200 and tecl_status != 200 and lhclte_status != 200 and lhtecl_status != 200 and tete_response != 200:
-            print('\n'
-                  '[ ✕ ||  UNABLE TO BYPASS WAF WITH STATUS CODE: 200 | HEADERS ] Press ENTER to attempt alternate bypass methods.\n\n'
-                  '     (HPP, Payload-Splitting/encoding, RCE obfuscation, etc.)\n\n\n'
-                  '     [!!!] Unfinished! To be completed in later versions!\n')
-            print("Exiting...")
+            time.sleep(3.5)
+            print('\n[✕ | Header manipulation ineffective, continuing attack methods...')
+            sql_fuzz(self)
 
-            time.sleep(5)
-            exit()
+
+
 
 
 # Initializing WAFFLE.py - HOME
@@ -225,4 +225,5 @@ print(" For usage instructions, use arguments: $ python3 WAFFLE.py < --help or -
 time.sleep(3)
 clear()
 
-run.main(self=run)
+run.main()
+exit()
