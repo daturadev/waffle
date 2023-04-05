@@ -51,7 +51,7 @@ All operating systems capable of processing:
 <br>
 
 ```
-♥ anxiety#1101 @ Datura Data ♥
+vipa @ Datura Data
 ```
 <br>
 
@@ -65,23 +65,6 @@ All operating systems capable of processing:
 
 <br>
 <br>
-
----
-
-> "  To destroy and construct,
->
-> live and die,
->
-> love and hate,
->
-> to thrive and to rot.
->
-> Something terrible lurks within us all.
-> To know oneself is to accept your evil and build.
->
-> Let us spread our love.  "
-> 
->                 Datura Data ♥
 
 ---
 
@@ -158,17 +141,16 @@ To-Do
 
 ---
 
- - Complete TE.TE Header Smuggling
- - Implement URL encoding
- - GET Header & Cookie Data From URL
-    - Exploit data & establish further resilience
-    with existing requests
- - Proxies
- - Threading
- - Parameter Pollution
- - Store Valid & Invalid Requests in Respective Files
- - De-Clutter Code
- - Debug
+ <h2>
+ TO-DO:
+  [ ] Multi-threading
+  [X] LFI manipulation
+  [X] Header manipulation
+  [ ] Input tampering
+  [ ] RFI manipulation
+  [ ] Neat & Tidy, Efficient code
+  
+ </h2>
 
 <br>
 
