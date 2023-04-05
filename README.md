@@ -144,13 +144,14 @@ To-Do:
  <br>
  <h2>TO-DO:</h2>
 
-Function--------------------|Progress
-Multi-threading             | IN-PROCESS
-LFI manipulation            | IN-PROCESS
-Header manipulation         | IN-PROCESS
-Input tampering             | ✔
-RFI manipulation            | ✖
-Neat & Tidy, Efficient code | ✖
+Function                     | Progress
+-----------------------------|-----------
+Multi-threading              | IN-PROCESS
+LFI manipulation             | IN-PROCESS
+Header manipulation          | IN-PROCESS
+Input tampering              | ✔
+RFI manipulation             | ✖
+Neat & Tidy, Efficient code  | ✖
   
 
 <br>
