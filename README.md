@@ -9,7 +9,7 @@ Automated Web Application Firewall (WAF) Bypass Testing Suite
 <h5>
 <b>Description:</b>
 </h5>
-
+---
 <p align="center">
 An automated Python script intended to
 test a host of bypass methods against a WAF-filtered URL.
@@ -60,7 +60,7 @@ vipa @ Datura Data
 <br>
 
 ```
-[ NULL as of now
+[ NULL as of now ]
 ```
 
 <br>
@@ -69,7 +69,6 @@ vipa @ Datura Data
 ---
 
 <br>
-
 <h5>Module Requirements:</h5>
 
 ```
@@ -82,20 +81,18 @@ itertools
 threading
 ```
 <br>
-
-<h4>Links</h4>
-
 ---
+<h4>Links:</h4>
+
 
 - [GitHub](https://github.com/Rohit19060/<project-name> "<project-name> Repo")
 
 - [Cracked.To](https://cracked.to/Datura_Data)
 
 <br>
-
-<h4>Images</h4>
-
 ---
+<h4>Images:</h4>
+
 <br>
 
 ![Datura Logo](/lib/img/datura.png)
@@ -105,10 +102,8 @@ threading
 ![WAFFLE.py](/lib/img/waffle-logo.gif)
 
 <br>
-
-<h4>Usage:</h4>
-
 ---
+<h4>Usage:</h4>
 
 <p>
 As of v0.1, there are two (REQUIRED) arguments
@@ -136,11 +131,9 @@ Payload|--payload <payload-here>|Malicious code to be tested|
 <br>
 
 <h4>
-To-Do
+To-Do:
 </h4>
-
----
-
+ <br>
  <h2>
  TO-DO:
   * [ ] Multi-threading
