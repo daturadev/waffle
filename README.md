@@ -44,7 +44,7 @@ All operating systems capable of processing:
 <h5>
 <b>Credits:</b>
 </h5>
-
+ 
 * Developers:
 
 <br>
@@ -80,7 +80,9 @@ itertools
 threading
 ```
 <br>
+
 ***
+
 <h4>Links:</h4>
 
 
@@ -89,7 +91,9 @@ threading
 - [Cracked.To](https://cracked.to/Datura_Data)
 
 <br>
+
 ***
+
 <h4>Images:</h4>
 
 <br>
@@ -101,7 +105,9 @@ threading
 ![WAFFLE.py](/lib/img/waffle-logo.gif)
 
 <br>
+
 ***
+
 <h4>Usage:</h4>
 
 <p>
@@ -124,9 +130,12 @@ Payload|--payload <payload-here>|Malicious code to be tested|
 
 <br>
 
->     $ python3 WAFFLE.py --url <url> --payload <SQLi/XSS/RCE/LFI/... Payload>
+`     $ python3 WAFFLE.py --url <url> --payload <SQLi/XSS/RCE/LFI/... Payload>`
 
 <br>
+ 
+***
+ 
 <br>
 
 <h4>
@@ -145,13 +154,15 @@ To-Do:
 </h2>
 
 <br>
+ 
 ***
+ 
  <br>
 
 
 <h3> 🍆🤝 Support  🤝🍆 </h3>**
 
----
+***
 
 If you found this project useful - please drop a like, watch, contribute, suggest, and donate! 🍄
 
