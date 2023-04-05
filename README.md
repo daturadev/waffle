@@ -142,16 +142,14 @@ Payload|--payload <payload-here>|Malicious code to be tested|
 To-Do:
 </h4>
  <br>
- <h2>
- TO-DO:
-  * [ ] Multi-threading
-  * [X] LFI manipulation
-  * [X] Header manipulation
-  * [ ] Input tampering
-  * [ ] RFI manipulation
-  * [ ] Neat & Tidy, Efficient code
+ <h2>TO-DO:</h2>
+* [ ] Multi-threading
+* [X] LFI manipulation
+* [X] Header manipulation
+* [ ] Input tampering
+* [ ] RFI manipulation
+* [ ] Neat & Tidy, Efficient code
   
-</h2>
 
 <br>
  
