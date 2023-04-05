@@ -143,12 +143,12 @@ To-Do
 
  <h2>
  TO-DO:
-  - [ ] Multi-threading
-  - [X] LFI manipulation
-  - [X] Header manipulation
-  - [ ] Input tampering
-  - [ ] RFI manipulation
-  - [ ] Neat & Tidy, Efficient code
+  * [ ] Multi-threading
+  * [X] LFI manipulation
+  * [X] Header manipulation
+  * [ ] Input tampering
+  * [ ] RFI manipulation
+  * [ ] Neat & Tidy, Efficient code
   
 </h2>
 
